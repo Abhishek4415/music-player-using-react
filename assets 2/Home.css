@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(30,25,25);
+}
+
+.feed{
+    display: flex;
+}
+
+.library{
+    flex: 2;
+}
+.song{
+    flex: 6;
+}

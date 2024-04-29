@@ -1,0 +1,70 @@
+.song1{
+    height: calc(100vh - 115px);
+    background-color: #205920;
+    width: 100%;
+}
+
+
+.songbox{
+    text-align: center;
+    /* background-color: rgb(40,40,43); */
+    position: relative;
+    top: 50px;
+    
+    
+
+}
+
+
+
+.songimg{
+    border: none;
+    background-color: aquamarine;
+    height:20rem;
+    object-fit: cover;
+}
+
+   
+
+
+.songdes{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-family: "Jersey 10", sans-serif;
+
+}
+
+.icon{
+    width: 100%;
+    display: flex ;
+    justify-content: space-evenly;
+    font-size: 30px;
+    position: relative;
+}
+
+.track{
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.watch{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+    gap: 150px;
+}
+@media only screen and (max-width: 668px) {
+    /* Adjust the height of song image for small screens */
+    .songimg {
+        height: 5rem; /* Adjust the height as needed */
+    }
+    .song{
+        height: auto;
+    }
+    .track{
+        width: 150px;
+    }
+}
